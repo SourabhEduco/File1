@@ -1,0 +1,3742 @@
+.inputAndDoneSpace {
+    float: right;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
+.clear {
+    margin-left: 5%;
+}
+
+.bold
+
+{
+font-weight:bold;	
+}
+
+
+tr,td{
+	border:0px solid #CCC;
+}
+
+
+ 
+ 
+.hidden{
+	visibility:hidden;
+}
+.Mrgntop {
+    margin-top: 6px;
+    width: 15%;
+    display: inline-block;
+    float: left;
+}
+.solutionMainSteps {
+    margin-top: 0px;
+    margin-left: 15.5%;
+    width: 84.5%;
+}
+
+
+.container {
+    /*height: calc(100% - 245px);*/
+    display: inline-block;
+    width: 100%;
+    float: left;
+	overflow-y: auto;
+}
+
+.blue{color:#00F;}
+
+
+.Step1{width:60%;}
+.Step4{margin-left:31%;}
+.Step5 {
+    margin-top: 8px;
+}
+.linehe{line-height:130%;}
+
+.padding{padding-top:12px;}
+
+.whitespace{white-space:nowrap;}
+
+
+.math 
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+}
+
+.TimesNew
+{
+font-family:'Times New Roman', Times, serif;	
+}
+
+.math 
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+
+
+/*-----------------------------------------------------------new work------------------------------------------------------------------*/
+.sidenote{font-size:20px;}
+.colorbar span.fdn{border-top:1px solid #F00;}
+.left{margin-left:17%;}
+.table1{width:100%;}
+.td1{width:50%;
+text-align: right;}
+.td2{width:2%;
+text-align:center;}
+.td3{width:2%;}
+.Step2{width: 33%;
+    margin-left: 7.5%;
+	}
+	
+.td1_1{width:6%;}
+.td1_2{width:8%;
+text-align:right;}
+.td1_3{width:5%;
+text-align:center;}
+.td1_4{width:2%;
+text-align:left;}
+.td1_5{width:29%;}
+
+.Step1 {
+    margin-top: 0px;
+    margin-left: 5%;
+}
+
+
+/*.table1_1 td {
+	padding-top:2.5%;
+}
+*/
+
+.solutionMainSteps {
+    margin-top: 0px;
+    margin-left: 17%;
+    width: 83%;
+}
+
+.answer_value {
+    float: left;
+    font-size: 0.8em;
+}
+.extra_png
+{
+	font-size: 0.8em;
+}
+
+
+	.inputAndDoneSpace {
+    float: right;
+    width: 65%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.table1_1  td{
+	white-space:nowrap;
+	
+	}
+	
+	
+	.correct,.incorrect
+	{
+	float:right;
+	margin-right:.3em;
+	}
+	
+	.tab1 td
+	{
+		padding-top:0.09em;
+	}
+	
+	
+	
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.15em;
+}
+.fraction span.fdn {border-top: thin solid black;}
+.fraction span.bar {display: none;}
+	
+	
+	.header {
+    min-height: 10.2em;
+}
+
+
+.figs1{
+	/*position:absolute;*/
+	width:100%;
+}
+
+
+
+.q1set,.qbset,.q2set
+	{
+	position:absolute;
+	font-size:0.60em;
+	white-space:nowrap;
+	}
+.qbset {
+    margin-left: 8.15em;
+    margin-top: 3.2em;
+}
+
+.q1set {
+    margin-left: 2.1em;
+    margin-top: 2.5em;
+}
+
+.q2set {
+    margin-top: 5.65em;
+    margin-left: -5.1em;
+}
+	
+.opacity{
+	opacity:0;
+}
+
+/*.mainTable{
+	white-space:nowrap;
+}*/
+
+.first td,.sixth td,.twelth td,.eighteen td,.twentyfour td{
+	padding-top:0.5em;
+}
+
+.question{
+	width:67%;
+	display:inline-block;
+	float:left
+}
+	
+	
+
+
+
+.imgDiv{
+	position:relative;
+	width:28%;
+	height:8.4em
+	display:inline-block;
+	float:left
+	
+}
+
+.remark {
+    float: left;
+    width: 35%;
+    padding-top: 3.5%;
+}	
+
+.showpot{
+	display:none;
+}
+	
+
+
+@media (min-width: 450px) and (max-width: 530px)
+{
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.Step1 {
+    width: 90%;
+}
+.Step5 {
+    margin-top: 0px;
+}
+.sidenote {
+    font-size: 0px;
+}
+.padding {
+    padding-top: 5px;
+}
+
+.solutionMainSteps {
+	width:82%;
+    margin-left: 18%;
+}
+
+.table1_1 td {
+    padding-top: 0%;
+}
+
+
+.answer_value {
+ 
+    font-size: 10px;
+	padding-top:1.6%;
+}
+.inputAndDoneSpace {
+    margin-top: 0px;
+}
+
+.header {
+    min-height: 8.2em;
+}
+
+.tab1 td {
+    padding-top: 0.2em;
+}
+
+.header {
+    min-height: 6.9em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+
+.sidenote {
+    font-size: 9px;
+}
+	.Step1 {
+    width: 78%;
+	margin-left:12%;
+}
+	
+	
+	.Step5 {
+    margin-top: 1px;
+}
+	
+
+.Cross_Img {
+    width: 9%;
+    float: right;
+    padding: 3px 3px 0px 0px;
+}
+.enterText {
+    color: #FFF;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.solutionMainSteps {
+	width:84%;
+    margin-left: 16%;
+}
+
+.InputAndDoneTbl {
+    width: 65%;
+    float: right;
+}
+
+.answer_value {
+ 
+    font-size: 10px;
+	padding-top:1.6%;
+}
+
+
+
+.inputAndDoneSpace {
+   
+
+    margin-top: 0px;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 89px;
+    margin-left: 50%;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:3px;
+	}
+	
+	.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	padding-top:1em !important;
+	}
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+
+
+.header {
+    min-height: 5.2em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.59em;
+}
+
+.ClickToAnsDiv{
+	margin-top:-1.5em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 78px;
+   
+}
+
+
+.tab1 td {
+    padding-top: 0.1em;
+}
+
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 213px;
+}
+
+.imgDiv {
+    position: relative;
+    width: 6.0em;
+    margin-left: 2em;
+    height: 4.7em;
+}
+
+.question {
+    width: 44%;
+    display: inline-block;
+    float: left;
+}
+
+.second td{
+	padding-top:0.3em;
+}
+
+
+
+}
+@media (min-width: 531px) and (max-width: 610px)
+{
+	
+.sidenote {
+    font-size: 9px;
+}
+	.Step1 {
+    width: 78%;
+	margin-left:12%;
+}
+	
+	
+	.Step5 {
+    margin-top: 1px;
+}
+	
+
+.Cross_Img {
+    width: 9%;
+    float: right;
+    padding: 3px 3px 0px 0px;
+}
+.enterText {
+    color: #FFF;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 9px;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.solutionMainSteps {
+	width:84%;
+    margin-left: 16%;
+}
+
+.InputAndDoneTbl {
+    width: 65%;
+    float: right;
+}
+
+.answer_value {
+ 
+    font-size: 10px;
+	padding-top:1.6%;
+}
+
+
+
+.inputAndDoneSpace {
+   
+
+    margin-top: 0px;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 89px;
+    margin-left: 50%;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:3px;
+	}
+	
+	.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	
+	}
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+
+
+.header {
+    min-height: 5.2em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.59em;
+}
+
+.ClickToAnsDiv{
+	margin-top:-1.5em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 77px;
+   
+}
+
+
+.tab1 td {
+    padding-top: 0.1em;
+}
+
+.imgDiv {
+    position: relative;
+    width: 6.0em;
+    margin-left: 2em;
+    height: 5.8em;
+}
+
+.question {
+    width: 44%;
+    display: inline-block;
+    float: left;
+}
+
+.second td{
+	padding-top:0.3em;
+}
+
+.remark {
+  
+    padding-top: 6%;
+}
+
+
+.ClickToAnsDiv {
+    margin-top: -1.5em;
+    margin-right: 0.5em;
+}
+
+	
+}
+@media (min-width: 611px) and (max-width: 690px)
+{
+	
+	.sidenote {
+    font-size: 11px;
+}
+	.Step1 {
+    width: 78%;
+	margin-left: 13%;
+}
+	
+	
+	.Step5 {
+    margin-top: 9px;
+}
+
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.padding {
+    padding-top: 10px;
+}
+.padding1 {
+    padding-top: 10px;
+}
+
+.solutionMainSteps {
+	width:86%;
+    margin-left: 14%;
+}
+.answer_value {
+ 
+    font-size: 12px;
+	padding-top:1.3%;
+}
+
+
+.inputAndDoneSpace {
+   
+
+    margin-top: -9px;
+}
+.InputAndDoneTbl {
+    width: 72%;
+    float: right;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:8px;
+	}
+.blankMessage_New, .incomplete_New {
+    margin-top: 90px;
+    margin-left: 45%;
+}
+.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	padding-top:1em !important;
+	}
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+
+.header {
+    min-height: 7.2em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.59em;
+}
+
+.imgDiv {
+    position: relative;
+    width: 9.5em;
+    margin-left: 2em;
+    height: 9.3em;
+}
+
+.question {
+    width: 35%;
+    display: inline-block;
+    float: left;
+}
+
+.second td{
+	padding-top:0.3em;
+}
+
+	
+	
+}
+@media (min-width: 691px) and (max-width: 770px)
+{
+	
+
+	.sidenote {
+    font-size: 14px;
+}
+	.Step1 {
+    width: 88%;
+	margin-left: 13%;
+}
+	
+	
+	.Step5 {
+    margin-top: 12px;
+}
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.padding {
+    padding-top: 10px;
+}
+
+.padding1 {
+    padding-top: 10px;
+}
+.solutionMainSteps {
+	width:88%;
+    margin-left: 11%;
+}
+
+.answer_value {
+ 
+    font-size: 14px;
+	padding-top:1.3%;
+}
+
+
+.inputAndDoneSpace {
+
+    margin-top: 0;
+ 
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:5px;
+	}
+.InputAndDoneTbl {
+    width: 75%;
+    float: right;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 105px;
+    margin-left: 46%;
+}
+
+.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+.inputAndDoneSpace {
+    margin-top: -13px;
+}
+
+.header {
+    min-height: 7.2em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.59em;
+}
+
+.ClickToAnsDiv{
+	margin-top:-1.5em;
+}
+
+.tab1 td {
+    padding-top: 0.0em;
+}
+	
+.blankMessage_New, .incomplete_New {
+    margin-top: 105px;
+   
+}
+
+.imgDiv {
+    position: relative;
+    width: 9.2em;
+    margin-left: 2em;
+    height: 8.7em;
+}
+
+.question {
+    width: 32%;
+    display: inline-block;
+    float: left;
+}
+
+.second td{
+	padding-top:0.3em;
+}
+
+.remark {
+    float: left;
+    width: 35%;
+    padding-top: 4%;
+}
+
+
+.question {
+    width: 44%;
+    display: inline-block;
+    float: left;
+}
+
+.ClickToAnsDiv {
+    margin-top: 0.5em;
+}
+
+
+}
+@media (min-width: 771px) and (max-width: 850px)
+{
+	
+	
+
+	.sidenote {
+    font-size: 14px;
+}
+	.Step1 {
+    width: 86%;
+	margin-left: 13%;
+}
+	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32%;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.td1_1 {
+    width: 11%;
+}
+.padding {
+    padding-top: 10px;
+}
+.padding1 {
+    padding-top: 10px;
+}
+.solutionMainSteps {
+	width:91%;
+    margin-left: 9%;
+}
+
+
+.answer_value {
+ 
+    font-size: 16px;
+	padding-top:1.1%;
+}
+
+.inputAndDoneSpace {
+
+    margin-top: 0;
+ 
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:2px;
+	}
+.InputAndDoneTbl {
+    width: 82%;
+    float: right;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 125px;
+    margin-left: 40%;
+}
+
+.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	padding-top:0.7em !important;
+	}
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+
+
+
+
+.header {
+    min-height: 5.7em;
+}
+
+.tab1 td {
+    padding-top: 0em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.0em;
+}
+
+.ClickToAnsDiv{
+	margin-top:-1.5em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 105px;
+   
+}
+.imgDiv {
+    position: relative;
+    width: 6em;
+    margin-left: 2em;
+    height: 5.8em;
+}	
+
+
+.question {
+    width: 49%;
+    display: inline-block;
+    float: left;
+}
+
+}
+@media (min-width: 851px) and (max-width: 930px)
+{
+	
+
+	.sidenote {
+    font-size: 14px;
+}
+	.Step1 {
+    width: 81%;
+	margin-left: 13%;
+}
+	
+.td1_1 {
+    width: 12%;
+}	
+	.Step5 {
+    margin-top: 10px;
+}
+.Step4 {
+    margin-left: 32%;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.padding {
+    padding-top: 10px;
+}
+
+.padding1 {
+    padding-top: 14px;
+}
+
+.solutionMainSteps {
+	width:89%;
+    margin-left: 11%;
+}
+.answer_value {
+ 
+    font-size: 16px;
+	padding-top:1.1%;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:4px;
+	}
+	.InputAndDoneTbl {
+    width: 78%;
+    float: right;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 165px;
+    margin-left: 42%;
+}
+
+.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	padding-top:0.7em !important;
+	}
+
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+
+.inputAndDoneSpace {
+
+    margin-top: -13px;
+}
+
+.header {
+    min-height: 7.2em;
+}
+
+.inputAndDoneSpace {
+    margin-top: 8px;
+}
+
+.tab1 td {
+    padding-top: 0em;
+}
+
+.header {
+    min-height: 6.2em;
+}
+
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.0em;
+}
+.ClickToAnsDiv{
+	margin-top:-1.5em;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 140px;
+   
+}	
+
+.imgDiv {
+    position: relative;
+    width: 6.3em;
+    margin-left: 2em;
+    height: 6.1em;
+}
+
+.question {
+    width: 38%;
+    display: inline-block;
+    float: left;
+}
+.second td{
+	padding-top:0.3em;
+}
+
+.question {
+    width: 54%;
+    display: inline-block;
+    float: left;
+}
+
+.ClickToAnsDiv {
+    margin-top: 0.2em;
+}
+
+
+}
+@media (min-width: 931px) and (max-width: 1010px)
+{
+	
+.solutionMainSteps{margin-left:8%;}
+	.sidenote {
+    font-size: 18px;
+}
+	.Step1 {
+    width: 81%;
+	margin-left: 13%;
+}
+	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32%;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.padding {
+    padding-top: 10px;
+}
+
+.padding1 {
+    padding-top: 14px;
+}
+
+.solutionMainSteps {
+	width:90%;
+    margin-left: 10%;
+}
+
+.answer_value {
+ 
+    font-size: 18px;
+	padding-top:1%;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:5px;
+	}
+	.InputAndDoneTbl {
+    width: 78%;
+    float: right;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 165px;
+    margin-left: 42%;
+}
+.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	padding-top:0.7em !important;
+	}
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+
+.header {
+    min-height: 7.2em;
+}
+
+.tab1 td {
+    padding-top: 0em;
+}
+
+.header {
+    min-height: 6.2em;
+}
+.Mrgntop {
+    margin-top: 4px;
+
+}
+
+.tab1 td {
+    padding-top: 0.2em;
+}
+.ClickToAnsDiv{
+	margin-top:-1.5em;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 142px;
+   
+}	
+
+.imgDiv {
+    position: relative;
+    width: 6.7em;
+    margin-left: 2em;
+    height: 6.4em;
+}
+
+
+.question {
+    width: 38%;
+    display: inline-block;
+    float: left;
+}
+
+
+.second td{
+	padding-top:0.5em;
+}
+
+
+.question {
+    width: 55%;
+    display: inline-block;
+    float: left;
+}
+
+.ClickToAnsDiv {
+    margin-top: 0.5em;
+}
+
+}
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+	
+	
+
+	.sidenote {
+    font-size: 17px;
+}
+	.Step1 {
+    width: 81%;
+	margin-left: 13%;
+}
+	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32.3%;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.padding {
+    padding-top: 10px;
+}
+
+.padding1 {
+    padding-top: 14px;
+}
+
+.solutionMainSteps {
+	width:88%;
+    margin-left: 12%;
+}
+
+.answer_value {
+ 
+    font-size: 17px;
+	padding-top:1.1%;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:8px;
+	}
+	.InputAndDoneTbl {
+    width: 78%;
+    float: right;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 165px;
+    margin-left: 46%;
+}
+
+.inputAndDoneSpaceFordevice
+	{
+	margin-right:3%;	
+	}
+	.remark
+	{
+	width:27% !important;
+	padding-top:0.7em !important;
+	}
+	
+	.InputAndDoneTbl {
+    width: 72%;
+}
+.header {
+    min-height: 9em;
+}
+
+.inputAndDoneSpace {
+  
+    width: 55%;
+
+}
+
+.tab1 td {
+    padding-top: 0.42em;
+}
+
+.imgDiv {
+    position: relative;
+    width: 10em;
+    margin-left: 2em;
+    height: 9.6em;
+}
+
+.question {
+    width: 32%;
+    display: inline-block;
+    float: left;
+}
+
+.second td{
+	padding-top:0.5em;
+}
+
+	.remark
+	{
+	width:27% !important;
+	padding-top:0.4em !important;
+	}
+	
+.question {
+    width: 54%;
+    display: inline-block;
+    float: left;
+}
+
+
+.ClickToAnsDiv {
+    float: right;
+    text-decoration: underline;
+    margin-right: 4%;
+    margin-top: 0.5em;
+}
+	
+
+}
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+	
+
+	.sidenote {
+    font-size: 19px;
+}
+	.Step1 {
+    width: 81%;
+	margin-left: 14%;
+}
+	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32.3%;
+}	
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.padding {
+    padding-top: 10px;
+}
+
+.padding1 {
+    padding-top: 14px;
+}
+
+.solutionMainSteps {
+	width:89%;
+    margin-left: 11%;
+}
+
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:10px;
+	}
+	.blankMessage_New {
+    width: auto;
+    margin-left: 46%;
+}
+
+.tab1 td {
+    padding-top: 0.20em;
+}
+.inputAndDoneSpace {
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+
+.header {
+    min-height: 6em;
+}
+
+.tab1 td {
+    padding-top: 0.25em;
+}
+
+.blankMessage_New {
+    width: auto;
+    margin-left: 80%;
+}
+
+.question {
+    height: 7.0em;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 19px;
+}
+
+.header {
+    min-height: 11em;
+}
+
+.mainTable td{
+	padding-top:0.5em;
+}
+
+
+.imgDiv {
+    
+    width: 30%;
+
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 49px;
+}
+
+.question {
+    width: 63%;
+    display: inline-block;
+    float: left;
+}
+
+.mainTable td {
+    padding-top: 0.5em;
+white-space:nowrap;
+}
+
+}
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+	.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:13px;
+		width:80%;
+ 	}
+	.Step1{
+		margin-top:0px;
+	}
+	.Step2{width: 26%;
+    margin-left: 7.5%;
+	}
+	.Step1{width:90%;}
+	.Step4{width:20%;}
+	
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+.padding {
+    padding-top: 8px;
+}
+
+.Step5{margin-top:3px;}
+
+.padding1{padding-top:8px;}
+.Step1 {
+	width:85%;
+    margin-left: 11%;
+}
+.inputAndDoneSpace {
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+/*.table1_1 td {
+	padding-top:1.5%;
+}
+*/.solutionMainSteps {
+	width:82%;
+    margin-left: 18%;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:8px;
+	}
+.blankMessage_New {
+    width: auto;
+    margin-left: 80%;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.header {
+    min-height: 6.2em;
+}
+
+.tab1 td {
+    padding-top: 0.35em;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 50%;
+    margin-left: 0;
+    margin-top: 1.5em;
+}
+
+.header {
+    min-height: 11.0em;
+}
+
+.mainTable td{
+	padding-top:0.3em;
+}
+
+.inputAndDoneSpace {
+ margin-top: 2.7em;
+}
+
+
+
+}
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+	
+
+.solutionMainSteps {
+    margin-left: 20%;
+    width: 80%;
+}
+	.sidenote {
+    font-size: 17px;
+}
+	.Step1 {
+    width: 81%;
+}
+	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32.3%;
+}
+
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.padding {
+    padding-top: 14px;
+}
+.padding1 {
+    padding-top: 23px;
+}
+.inputAndDoneSpace {
+
+    margin-top: 0px;
+}
+.Step1 {
+    margin-top: 0px;
+    margin-left: 10%;
+}
+.blankMessage{
+	width:10%;
+	}
+	.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:8px;
+	}
+.blankMessage_New,.incomplete_New {
+    width: auto;
+    margin-left: 85%;
+}
+.tab1 td {
+    padding-top: 0.5em;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 40px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+.InputAndDoneTbl {
+    width: 50%;
+    float: right;
+}
+
+.header {
+    min-height: 9.2em;
+}
+
+.header {
+    min-height: 6.2em;
+}
+
+.tab1 td {
+    padding-top: 0.51em;
+}
+
+.header {
+    min-height: 11.0em;
+}
+
+.mainTable td{
+	padding-top:0.5em;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 70px;
+}
+
+.header {
+    min-height: 12em;
+}
+
+}
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	
+.solutionMainSteps {
+    margin-left: 21%;
+	width:79%;
+}
+	.sidenote {
+    font-size: 26px;
+}
+.Step1 {
+    width: 81%;
+    margin-left: 10%;
+}
+	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32.5%;
+}
+
+.padding {
+    padding-top: 14px;
+}
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.padding1{padding-top:21px;}
+
+.inputAndDoneSpace {
+
+    margin-top: 0px;
+}
+.td_2_1, .td_2_2, .td_2_3, .td3_1, .td3_2, .td3_3, .td4_1, .td4_2, .td4_3, .td5_1, .td5_2 {
+    padding-top: 10px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 84%;
+}
+.tab1 td {
+    padding-top: 0.5em;
+}
+
+
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+.InputAndDoneTbl {
+    width: 50%;
+    float: right;
+}
+.header {
+    min-height: 6.2em;
+}
+
+.tab1 td {
+    padding-top: 0.61em;
+}
+
+.question {
+    /* margin-top: 1em; */
+    height: 8em;
+}
+
+.inputAndDoneSpace {
+
+    margin-top: 49px;
+}
+
+.Mrgntop {
+    margin-top: 13px;
+
+}
+
+
+
+.header {
+    min-height: 11.0em;
+}
+
+.mainTable td{
+	padding-top:0.5em;
+}
+
+.Mrgntop {
+    margin-top: 5px;
+}
+
+.header {
+    min-height: 11.8em;
+}
+
+.mainTable td {
+    padding-top: 0.7em;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 98px;
+}
+
+.header {
+    min-height: 12.5em;
+}
+
+}	
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+	
+.solutionMainSteps{margin-left:18%; width:82%;}
+	.sidenote {
+    font-size: 17px;
+}
+	.Step1 {
+    width: 81%;
+}
+.padding {
+    padding-top: 14px;
+}	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32.3%;
+}
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.padding1{padding-top:21px;}
+.Step1 {
+    margin-top: 0px;
+    margin-left: 13%;
+}
+
+
+.inputAndDoneSpace {
+    float: right;
+    width: 90%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.td_2_1, .td_2_2, .td_2_3, .td3_1, .td3_2, .td3_3, .td4_1, .td4_2, .td4_3, .td5_1, .td5_2 {
+    padding-top: 10px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 82%;
+}
+.inputAndDoneSpace {
+    float: right;
+    width: 65%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.answer_value {
+    float: right;
+    width: 63%;
+    text-align: right;
+    padding-top: 0.8%;
+    font-size: 20px;
+    margin-right: 6.1em;
+}
+.tab1 td {
+    padding-top: 0.5em;
+}
+
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+.InputAndDoneTbl {
+    width: 50%;
+    float: right;
+}
+.header {
+    min-height: 6.2em;
+}
+
+.question {
+    /* margin-top: 1em; */
+    height: 8em;
+}
+
+.inputAndDoneSpace {
+
+    margin-top: 59px;
+}
+
+.Mrgntop {
+    margin-top: 13px;
+
+}
+
+
+.header {
+    min-height: 11.0em;
+}
+
+.mainTable td{
+	padding-top:0.5em;
+}
+
+.header {
+    min-height: 11.5em;
+}
+
+.mainTable td {
+    padding-top: 0.7em;
+}
+
+.question {
+    width: 70%;
+    
+}
+
+.inputAndDoneSpace {
+    margin-top: 123px;
+}
+
+.header {
+    min-height: 12.5em;
+}
+
+}
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	
+.solutionMainSteps {
+    margin-left: 21%;
+	margin-top:50px;
+	width:79%;
+}
+	.sidenote {
+    font-size: 29px;
+}
+.Step1 {
+    width: 81%;
+    margin-left: 10%;
+}
+.padding {
+    padding-top: 14px;
+}	
+	
+	.Step5 {
+    margin-top: 15px;
+}
+.Step4 {
+    margin-left: 32.8%;
+}	
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.padding1{padding-top:20px;}
+.inputAndDoneSpace {
+   
+
+    margin-top: -12px;
+}
+.blankMessage_New,.incomplete_New {
+    width: auto;
+    margin-left: 50%;
+}
+.td_2_1, .td_2_2, .td_2_3, .td3_1, .td3_2, .td3_3, .td4_1, .td4_2, .td4_3, .td5_1, .td5_2 {
+    padding-top: 10px;
+}
+.inputAndDoneSpace {
+    float: right;
+    width: 65%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+.answer_value {
+    float: right;
+    width: 63%;
+    text-align: right;
+    padding-top: 0.8%;
+    font-size: 20px;
+    margin-right: 8.1em;
+}
+.tab1 td {
+    padding-top: 0.5em;
+}
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+.InputAndDoneTbl {
+    width: 50%;
+    float: right;
+}
+.header {
+    min-height: 9.2em;
+}
+
+
+.header {
+    min-height: 6.2em;
+}
+
+.inputAndDoneSpace {
+  
+    margin-top: 50px;
+}
+
+.blankMessage_New, .incomplete_New {
+    
+    margin-left: 85%;
+}
+
+
+
+.question {
+    height: 7.9em;
+}
+
+
+.Mrgntop {
+    margin-top: 13px;
+   
+}
+
+.imgDiv {
+    position: relative;
+    width: 8.5em;
+    margin-left: 2em;
+    height: 7em;
+}
+
+.header {
+    min-height: 12.2em;
+}
+
+.inputAndDoneSpace {
+    margin-top: 109px;
+}
+
+
+.mainTable td {
+    padding-top: 0.7em;
+}
+
+.imgDiv {
+    position: relative;
+    width: 9.2em;
+    margin-left: 2em;
+    height: 9.1em;
+}
+
+.remark {
+    padding-top: 2.3%;
+}
+
+
+
+
+}
+@media (min-width: 2001px)
+{
+	
+.solutionMainSteps {
+    margin-left: 20%;
+	width:80%;
+}
+	.sidenote {
+    font-size: 29px;
+}
+.Step1 {
+    width: 81%;
+    margin-top: 0px;
+    margin-left: 13%;
+}
+	
+	.padding {
+    padding-top: 14px;
+}
+	.Step5 {
+    margin-top: 23px;
+}
+.Step4 {
+    margin-left: 32.6%;
+}
+.fraction{ line-height:110%;}
+.linehe{line-height:130%;}
+
+.linehe {
+    line-height: 145%;
+}
+
+.padding1{padding-top:25px;}
+
+.inputAndDoneSpace {
+   
+
+    margin-top: -12px;
+}
+.td_2_1, .td_2_2, .td_2_3, .td3_1, .td3_2, .td3_3, .td4_1, .td4_2, .td4_3, .td5_1, .td5_2 {
+    padding-top: 10px;
+}
+
+.inputAndDoneSpace {
+    margin-top: 45px;
+}
+.blankMessage_New,.incomplete_New {
+    width: auto;
+    margin-left: 55%;
+}
+.tab1 td {
+    padding-top: 0.5em;
+}
+.inputAndDoneSpace {
+    float: right;
+    width: 60%;
+    margin-left: 0;
+    margin-top: 0px;
+}
+.InptDnTd1 {
+    width: 60%;
+}
+.InputAndDoneTbl {
+    width: 50%;
+    float: right;
+}
+.header {
+    min-height: 9.2em;
+}
+
+.header {
+    min-height: 6.2em;
+}
+.blankMessage_New, .incomplete_New {
+    
+    margin-left: 85%;
+}
+.tab1 td {
+    padding-top: 0.8em;
+}
+
+.question {
+    height: 7.9em;
+}
+
+.inputAndDoneSpace {
+  
+    margin-top: 50px;
+}
+
+.Mrgntop {
+    margin-top: 13px;
+    
+}
+
+.imgDiv {
+    position: relative;
+    width: 10.4em;
+    margin-left: 2em;
+    height: 10em;
+}
+
+
+
+
+.header {
+    min-height: 12.7em;
+}
+
+.inputAndDoneSpace {
+    margin-top: 109px;
+}
+
+
+.first td, .sixth td, .twelth td, .eighteen td, .twentyfour td {
+    padding-top: 0.7em;
+}
+
+.mainTable td {
+    padding-top: 0.7em;
+}
+
+
+.remark {
+    padding-top: 2.3%;
+}
+
+}
+.first{
+	white-space:nowrap;
+}
+
+
+
+
+
+
+						/*<-- Portrait-->*/
+ 
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+	
+	.container-fluid
+	{
+	font-size:11px;	
+	}
+	
+.Mrgntop {
+    margin-top: 12px;
+}
+.solutionMainSteps {
+	margin-top: 25px;
+		margin-left: 0px;
+	}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+ 	}
+.Step1{
+		margin-top:0px;
+	}
+	 
+ .input1{
+	width:85%
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 22%;
+    font-size: 8px;
+}
+.arrow{
+	width:2%;
+}
+.ForPortrait{
+	display:block;
+	
+	}
+	.steps {
+    display: inline-block;
+    width: 80%;
+    background: #FFF;
+}
+.Step1a_3{
+	padding-top:8px;
+	}
+	
+	.ForLandscape{
+		display:none;
+		}
+		.img_width,.new_div,.Step5a{
+			padding-top:4px;
+			}
+			 .Step3a {
+    padding-top: 8px;
+}
+.Step6a,.Step7a,.Step8a,.Step9a{
+	margin-left:24%;
+	
+	}
+	.Step7a, .Step8a, .Step9a {
+    padding-top: 9px;
+}
+.step1a_2{
+	width:92%;
+	}
+	.absolute {
+    position: absolute;
+    margin-top: 1.9em;
+    font-size: 0.8em;
+    margin-left: 3.5em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step2a{
+							width:30%;
+							
+							}
+							.table_small td{
+								white-space:nowrap;
+								}
+								.ClickToAnsDiv {
+    margin-top: 25px;
+}
+
+.td_1b,.td_2b,.td_3b,.td_4b,.line_height {
+	padding-top:12px;
+	}
+	.inputAndDoneSpaceFordevice {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0%;
+}
+.InputAndDoneTbl {
+    width: 65%;
+    float: right;
+}
+.table1_1 td
+{
+white-space:normal;	
+}
+.abi
+{
+font-size:5px;	
+}
+.extra_png 
+{
+	
+text-align:left !important;	
+}
+.inputAndDoneSpaceFordevice {
+    width: 89%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 200px;
+    margin-left: 33%;
+}
+
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+.remark
+	{
+	padding-top:1em !important;
+	}
+	
+	
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 10.8em;
+    margin-left: 2em;
+    height: 10.5em;
+}
+/*.question{
+    height: 10em;
+}*/
+
+
+
+.question {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+
+.remark {
+    padding-top: 1.6em !important;
+}
+
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 132px!important;
+}
+
+	
+}
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{
+.container-fluid
+	{
+	font-size:11px;	
+	}
+	
+.Mrgntop {
+    margin-top: 12px;
+}
+.solutionMainSteps {
+	margin-top: 25px;
+		margin-left: 0px;
+	}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+ 	}
+.Step1{
+		margin-top:0px;
+	}
+	 
+ .input1{
+	width:85%
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 22%;
+    font-size: 8px;
+}
+.arrow{
+	width:2%;
+}
+.ForPortrait{
+	display:block;
+	
+	}
+	.steps {
+    display: inline-block;
+    width: 80%;
+    background: #FFF;
+}
+.Step1a_3{
+	padding-top:8px;
+	}
+	
+	.ForLandscape{
+		display:none;
+		}
+		.img_width,.new_div,.Step5a{
+			padding-top:4px;
+			}
+			 .Step3a {
+    padding-top: 8px;
+}
+.Step6a,.Step7a,.Step8a,.Step9a{
+	margin-left:24%;
+	
+	}
+	.Step7a, .Step8a, .Step9a {
+    padding-top: 9px;
+}
+.step1a_2{
+	width:92%;
+	}
+	.absolute {
+    position: absolute;
+    margin-top: 1.9em;
+    font-size: 0.8em;
+    margin-left: 3.5em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step2a{
+							width:30%;
+							
+							}
+							.table_small td{
+								white-space:nowrap;
+								}
+								.ClickToAnsDiv {
+    margin-top: 25px;
+}
+
+.td_1b,.td_2b,.td_3b,.td_4b,.line_height {
+	padding-top:12px;
+	}
+	.inputAndDoneSpaceFordevice {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 0%;
+}
+.InputAndDoneTbl {
+    width: 65%;
+    float: right;
+}
+.table1_1 td
+{
+white-space:normal;	
+}
+.abi
+{
+font-size:5px;	
+}
+.extra_png 
+{
+	
+text-align:left !important;	
+}
+.inputAndDoneSpaceFordevice {
+    width: 89%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 200px;
+    margin-left: 33%;
+}
+
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+.remark
+	{
+	padding-top:1em !important;
+	}
+	
+	
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 10.9em;
+    margin-left: 2em;
+    height: 10.7em;
+}
+
+
+.remark {
+    padding-top: 1.6em !important;
+}
+
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 132px!important;
+}
+
+}
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+	
+.Mrgntop {
+    margin-top: 5px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 36px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+ 	}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}
+
+.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 26%;
+    font-size: 12px;
+}
+.arrow{
+	width:2%;
+}	
+.ForPortrait{
+	display:block;
+	
+	}
+	
+.Step1a_3,.new_div,.Step5a{
+	padding-top:8px;
+	}
+	.steps {
+    display: inline-block;
+    width: 80%;
+    background: #FFF;
+}
+	
+	.ForLandscape{
+		display:none;
+		}
+		.img_width{
+			padding-top:8px;
+			}
+			.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 16%;
+}
+	.StpBtnCmn,.step1 {
+    width: 12%;
+    margin-left: 25%;
+}	
+.absolute {
+    position: absolute;
+    margin-top: 2.2em;
+    font-size: 0.8em;
+    margin-left: 5em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.step1a_2{
+	width:92%;
+	}
+
+.td_1b,.td_2b,.td_3b,.td_4b,.line_height {
+	padding-top:12px;
+	}
+	.ClickToAnsDiv {
+    margin-top: 30px;
+}
+
+.remark{
+	width:25%;
+	margin-left:8%;
+	}
+	.blankMessage_New {
+    width: auto;
+    margin-left: 45%;
+}
+.InputAndDoneTbl {
+    width: 60%;
+    float: right;
+    display: inline-block;
+}
+.lftt{float: left;}
+.inputAndDoneSpaceFordevice {
+    width: 89%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+.remark
+	{
+	padding-top:1em !important;
+	}
+	
+	
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 10.9em;
+    margin-left: 2em;
+    height: 10.7em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 220px;
+    margin-left: 36%;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 132px!important;
+}
+
+}
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+	
+.Mrgntop {
+    margin-top: 5px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 20px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}
+.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 2%;
+    font-size: 12px;
+}
+.arrow{
+	width:2%;
+}	
+	.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 26%;
+    font-size: 12px;
+}
+.arrow{
+	width:2%;
+}	
+.ForPortrait{
+	display:block;
+	
+	}
+	
+.Step1a_3,.new_div,.Step5a{
+	padding-top:8px;
+	}
+	
+	.ForLandscape{
+		display:none;
+		}
+		.img_width{
+			padding-top:8px;
+			}
+			.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 20%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.2em;
+    font-size: 0.8em;
+    margin-left: 4.5em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.ClickToAnsDiv {
+    margin-top: 26px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 40%;
+}
+
+.lftt{float: left;}
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+.inputAndDoneSpaceFordevice
+{
+width:95%;
+}
+
+
+
+.Mrgntop {
+    margin-top: 13px;
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 10.9em;
+    margin-left: 2em;
+    height: 10.7em;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 210px;
+ 
+}
+
+}
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+	
+.Mrgntop {
+    margin-top: 14px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 118px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}
+.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 2%;
+    font-size: 12px;
+}
+.arrow{
+	width:2%;
+}	
+	.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+    width: 9%;
+    margin-left: 26%;
+    font-size: 12px;
+}
+.arrow{
+	width:2%;
+}	
+.ForPortrait{
+	display:block;
+	
+	}
+	
+.Step1a_3,.new_div,.Step5a{
+	padding-top:8px;
+	}
+	
+	.ForLandscape{
+		display:none;
+		}
+		.img_width{
+			padding-top:8px;
+			}
+			.absolute {
+    position: absolute;
+    margin-top: 2.2em;
+    font-size: 0.8em;
+    margin-left: 4.5em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step9a{
+		margin-left:19%;
+		}
+		.ClickToAnsDiv {
+    margin-top: 26px;
+}
+.blankMessage_New {
+    margin-top: 238px;
+    margin-left: 40%;
+}
+
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+
+
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 10.9em;
+    margin-left: 2em;
+    height: 10.7em;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 228px;
+    
+}
+
+.remark {
+   
+    padding-top: 0.9em!important;
+}
+
+
+}
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+	
+		
+.Mrgntop {
+    margin-top: 3px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 118px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}	
+	
+.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 2%;
+    font-size: 16px;
+}
+
+	.StpBtnCmn {
+    width: 9%;
+    margin-left: 26%;
+    font-size: 12px;
+}
+.arrow{
+	width:2%;
+}	
+.ForPortrait{
+	display:block;
+	
+	}
+	
+.Step1a_3,.new_div,.Step5a{
+	padding-top:8px;
+	}
+	
+	.ForLandscape{
+		display:none;
+		}
+		.img_width{
+			padding-top:8px;
+			}
+			.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 20%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.4em;
+    font-size: 0.8em;
+    margin-left: 5.3em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step9a{
+		margin-left:19%;
+		}
+		.relative1 {
+    padding-left: 18%;
+}
+	.ClickToAnsDiv {
+    margin-top: 26px;
+}
+.blankMessage_New {
+    margin-top: 229px;
+    margin-left: 40%;
+}
+.tab1 td
+{
+padding-top:0.7em;	
+}
+
+.Mrgntop {
+    margin-top: 12px;
+}
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 11em;
+    margin-left: 2em;
+    height: 10.9em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 228px;
+    
+}
+
+.remark {
+   
+    padding-top: 0.9em!important;
+}
+
+}
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+	
+.Mrgntop {
+    margin-top: 4px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 118px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}	
+
+	
+.steps{ 
+width: 84%;
+padding-top:1%;
+}
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 25%;
+    font-size: 16px;
+}
+.Step1a_3,.Step1a_new,.new_div,.Step5a{
+	padding-top:8px;
+	}
+	.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 20%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.4em;
+    font-size: 0.8em;
+    margin-left: 5.3em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step9a{
+		margin-left:19%;
+		}
+		.relative1 {
+    padding-left: 18%;
+}
+.last_div{
+	display:inline-block;
+	}
+	.Step2a{
+		    margin-left: 22%;
+		} 
+		.Step3a{
+			    margin-left: 30.5%;
+			}
+			.step4a{
+				margin-left: 7.5%;
+				}
+				.new_div{
+					margin-left:6%;
+					}
+					.Step5a{
+						margin-left:5%;
+						}
+						.ClickToAnsDiv {
+    margin-top: 24px;
+}
+.blankMessage_New {
+    margin-top: 262px;
+    margin-left: 40%;
+}					
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+
+
+.Mrgntop {
+    margin-top: 12px;
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 9.8em;
+    margin-left: 2em;
+    height: 8.3em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 248px;
+    
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 11.5em;
+    margin-left: 2em;
+    height: 11.7em;
+}
+		
+}
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+.Mrgntop {
+    margin-top: 4px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 118px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}
+.Step1a_3,.Step1a_new,.new_div,.Step5a{
+	padding-top:10px;
+	}
+	.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 20%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.4em;
+    font-size: 0.8em;
+    margin-left: 5.3em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step9a{
+		margin-left:19%;
+		}
+		.relative1 {
+    padding-left: 18%;
+}
+.last_div{
+	display:inline-block;
+	}
+					.ClickToAnsDiv {
+
+    margin-top: 24px;
+}
+.blankMessage_New {
+    margin-top: 286px;
+    margin-left: 40%;
+}
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+.Mrgntop {
+    margin-top: 15px;
+}
+
+
+.imgDiv {
+    position: relative;
+    width: 10em;
+    margin-left: 2em;
+    height: 8.5em;
+}
+.blankMessage_New, .incomplete_New {
+    margin-top: 300px;
+    
+}
+
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 11.5em;
+    margin-left: 2em;
+    height: 11.7em;
+}
+
+.remark {
+   
+    padding-top: 0.75em!important;
+}
+	
+
+}
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+.Mrgntop {
+    margin-top: 4px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 118px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}
+
+	
+.steps{ 
+width: 88%;
+padding-top:1%;
+}
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 24%;
+    font-size: 18px;
+}
+.Step1a_3,.Step1a_new,.new_div,.Step5a{
+	padding-top:10px;
+	}
+	.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 20%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.4em;
+    font-size: 0.8em;
+    margin-left: 5.3em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step9a{
+		margin-left:19%;
+		}
+		.relative1 {
+    padding-left: 18%;
+}
+.last_div{
+	display:inline-block;
+	}
+	.Step10a, .Step11a, .Step12a {
+    padding-top: 18px;
+}
+.ClickToAnsDiv {
+    margin-top: 24px;
+}
+.blankMessage_New {
+    width: auto;
+    margin-left: 50%;
+}
+
+.blankMessage_New {
+    margin-top: 299px;
+    margin-left: 40%;
+}
+
+.tab1 td
+{
+padding-top:0.7em;	
+}
+.Mrgntop {
+    margin-top: 15px;
+}
+
+
+.imgDiv {
+    position: relative;
+    width: 10em;
+    margin-left: 2em;
+    height: 8.5em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 300px;
+    
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 11.7em;
+    margin-left: 2em;
+    height: 11.6em;
+}
+
+
+.remark {
+    
+    padding-top: 0.8em !important;
+}
+
+}
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+.Mrgntop {
+    margin-top: 4px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+    margin-left: 118px;
+}
+.Step1,.Step2,.Step3,.Step4{
+		display:inline-block;
+		margin-top:40px;
+		width:90%;
+}
+.Step1{
+		margin-top:0px;
+	}
+.input1{
+	width:85%
+}
+	
+.steps{ 
+width: 88%;
+padding-top:1%;
+}
+
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 24%;
+    font-size: 22px;
+}
+ .Step1a_3,.Step1a_new,.new_div,.Step5a{
+	padding-top:10px;
+	}
+	.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 22%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.4em;
+    font-size: 0.8em;
+    margin-left: 7em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a,.Step7a,.Step8a{
+	padding-left:30%;
+	white-space:nowrap;
+	}
+	.Step9a{
+		margin-left:19%;
+		}
+		.relative1 {
+    padding-left: 18%;
+}
+.last_div{
+	display:inline-block;
+	}
+	.Step10a, .Step11a, .Step12a {
+    padding-top: 18px;
+}
+.ClickToAnsDiv {
+    margin-top: 24px;
+}
+.blankMessage_New {
+     margin-top: 299px;
+    margin-left: 62%;
+}
+
+.tab1 td
+{
+padding-top:1em;	
+}
+
+.Mrgntop {
+    margin-top: 15px;
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 10.3em;
+    margin-left: 2em;
+    height: 8.8em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 300px;
+    
+}
+
+.imgDiv {
+    position: relative;
+    width: 12em;
+    margin-left: 2em;
+    height: 11.6em;
+}
+
+}
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+.Mrgntop {
+margin-top: 4px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+margin-left: 124px;
+}
+.Step1{
+display:inline-block;
+margin-top:40px;
+width:90%;
+}
+.Step1{
+margin-top:0px;
+}
+.input1{
+width:85%
+}
+
+	
+.steps{ 
+width: 88%;
+padding-top:1%;
+}
+
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 24%;
+    font-size: 22px;
+}
+.Step1a_3,.Step1a_new,.new_div,.Step5a{
+	padding-top:10px;
+	}
+	.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 22%;
+}
+.absolute {
+    position: absolute;
+    margin-top: 2.4em;
+    font-size: 0.8em;
+    margin-left: 7em;
+}
+.table_Img{
+	    margin-left: 29%;
+	}
+	.img_width {
+    width: 50%;
+}
+.Step6a, .Step7a, .Step8a {
+    padding-left: 31%;
+    white-space: nowrap;
+}
+.Step9a{
+		margin-left:19%;
+		}
+		.relative1 {
+    padding-left: 18%;
+}
+.last_div{
+	display:inline-block;
+	}
+	.Step10a, .Step11a, .Step12a {
+    padding-top: 18px;
+}
+.ClickToAnsDiv {
+    margin-top: 24px;
+}
+.blankMessage_New {
+    margin-top: 366px;
+    margin-left: 45%;
+}
+
+.tab1 td
+{
+padding-top:1em;	
+}
+.Mrgntop {
+    margin-top: 15px;
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 10.3em;
+    margin-left: 2em;
+    height: 8.8em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 378px;
+    
+}
+
+
+
+.imgDiv {
+    position: relative;
+    width: 12em;
+    margin-left: 2em;
+    height: 11.6em;
+}
+}
+@media (min-width: 1041px) and (orientation:portrait)
+{
+.Mrgntop {
+margin-top: 4px;
+}
+.solutionMainSteps {
+margin-top: 25px;
+margin-left: 124px;
+}
+.Step1,.Step2,.Step3,.Step4{
+display:inline-block;
+margin-top:40px;
+width:90%;
+}
+.Step1{
+margin-top:0px;
+}
+.input1{
+width:85%
+}
+
+	
+.steps{ 
+width: 88%;
+padding-top:1%;
+}
+
+.StpBtnCmn {
+   	width: 10%;
+    margin-left: 2%;
+    font-size: 23px;
+}
+.Step1a_3,.Step1a_new,.new_div,.Step5a{
+	padding-top:10px;
+	}
+	.Step6a, .Step7a, .Step8a, .Step9a {
+    margin-left: 22%;
+}
+.Copyright{
+	font-weight:normal;
+	}
+	.ClickToAnsDiv {
+    margin-top: 24px;
+}
+.blankMessage_New {
+    margin-top: 390px;
+    margin-left: 40%;
+}
+
+.tab1 td
+{
+padding-top:1em;	
+}
+.Mrgntop {
+    margin-top: 15px;
+}
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 10.3em;
+    margin-left: 2em;
+    height: 8.8em;
+}
+
+.blankMessage_New, .incomplete_New {
+    margin-top: 418px;
+    
+}
+
+
+	
+
+.imgDiv {
+    position: relative;
+    width: 12em;
+    margin-left: 2em;
+    height: 11.6em;
+}
+
+
+.remark {
+   
+    padding-top: 0.6em !important;
+}
+
+}
+
+@media (min-width: 320px)  and (orientation:portrait)
+{
+.table1_1 td {
+    padding-top: 2.5%;
+    white-space: nowrap;
+}
+
+
+.remark {
+    margin-left: 0%;
+	padding-top:2em;
+}
+.td_2_1,.td_2_2,.td_2_3,.td3_1,.td3_2,.td3_3,.td4_1,.td4_2,.td4_3,.td5_1,.td5_2{
+	padding-top:8px;
+	}
+	
+	.qas1{
+		white-space:normal !important;
+	}
+	
+		.fg1{
+		white-space:nowrap;
+	}
+	
+	
+
+
+.header {
+    min-height: 17.2em;
+}
+
+.mainTable{
+	white-space:normal;
+}
+
+.second{
+	white-space:nowrap;
+}
+
+.mainTable td{
+	padding-top:0.8em;
+}
+
+.question {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+
+.showpot{
+	display:table-row;
+}
+
+.showland{
+	display:none;
+}
+
+
+
+}
+.Step1 {
+   
+    margin-top: 0px;
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.0em;
+}
+/*.fraction span.fdn {border-top: 0.07em solid;}*/
+.blue span.fdn {border-top: 0.07em solid #00c;}
+.red span.fdn {border-top: 0.07em solid #c00;}
+/*----- 32 -------*/
+.solutionMainSteps{margin-top:0px;}
+
+.middle{width:100%;
+display:inline-block;}
+
+
+.td_1,.td_2,.td_3{
+	padding-top:0px;
+	}
+
+.padding1,.padding{
+    padding-top: 0px;
+}
+
+.fraction 
+{
+line-height:125%;	
+}
+
+/*----- remark -------*/
+
+
+
+.tb1 td{
+	white-space:nowrap;
+}
+
+
+
+
+.answer_value {
+    font-size: 0.8em;
+	}
+
+	
+.fg1a{
+	white-space:nowrap;
+}
+
+.rap{
+	white-space:nowrap;
+}
+.tab1{
+	white-space:nowrap;
+}
+
+.inputAndDoneSpace {
+    float: left;
+    width: 100%;
+    margin-left: -4%;
+    
+}
+
+.second{
+	
+	margin-left:auto;
+	margin-right:auto
+}
+
+.correct,.incorrect,#FB_TxtBox,#FB_TxtBoxa,.FB_TxtBox
+{
+float:right;
+margin-right:0.2em;
+margin-left:0;
+}
+
+.incorrect, .correct {
+    margin-top: 0;
+}
+
+
+.mainTable{
+	white-space:nowrap;
+}
+
+
+.tab:focus,.done1:focus
+{
+	outline:none;
+}
+.remark{display:inline;}
+.header {
+	
+	background-image: none;
+ 	
+}

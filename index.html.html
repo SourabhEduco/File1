@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/baseForExample_V2.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+
+<script src="content_files/app.js"></script> 
+
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/baseForExample_V1.js"></script>
+<script src="template_files/jquery/middleForAll.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/MFExample/ExampleDataSave.js"></script>
+</head>
+<body>
+
+<div class="warning">
+
+<div class="OrientImage"><img src="image/orientationExample.png" alt="Orientation Change" class="orient"></div>
+
+</div>
+
+
+ 
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ 
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ 
+ var finalHeight = (height-LoadingDivHeight)/2;
+
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+<div class="container-fluid" id='QuesDiv' style="display:none">
+
+
+
+<div class="header">
+<div class="new_h">
+	<div class="section1"><h3>Objetivo: <font color='#009'>  Leer datos de una Gráfica Lineal </font></h3></div><!-- section1 closed-->
+    <div class="wholeSection">
+	<div class="section2">
+    	<input type="button" value="Otro Intento" class="newSet headerButton" onClick="nextQuesGeneration()">
+        <input type="button" value="Solución" class="solution headerButton" onClick="showSolution()">
+    </div><!-- section2 closed-->
+    <div class="section3">
+    	<div class="questionSection">
+        
+       <div class="question"><div class="queFrac"><span id="variable1"></span> <span id="variable2"></span><br><font color="#0000FF">Redondea la respuesta a la posición de las centésimas, <span class="zxc1">de ser necesario.</span></font>
+
+
+
+      
+      
+      
+      </div><!--div queFrac-->
+
+       
+      </div><!-- div question-->
+      
+      <div class="imgDiv Mrgntop" style="border:0.10em double #F30; box-shadow:0.01em 0.01px 0.05em 0.01em grey; background:white; padding:0.1em">
+
+
+    <img src="image/figs11.png" class="figs11 figs1"/>
+    <img src="image/figs12.png" class="figs12 figs1"/>
+    <img src="image/figs13.png" class="figs13 figs1"/>
+    <img src="image/figs14.png" class="figs14 figs1"/>
+    
+    <img src="image/figs15.png" class="figs15 figs1"/>
+    <img src="image/figs16.png" class="figs16 figs1"/>
+    <img src="image/figs17.png" class="figs17 figs1"/>
+    <img src="image/figs18.png" class="figs18 figs1"/>
+    <img src="image/figs19.png" class="figs19 figs1"/>
+    <img src="image/figs20.png" class="figs20 figs1"/>
+    <img src="image/figs21.png" class="figs21 figs1"/>
+    <img src="image/figs22.png" class="figs22 figs1"/>
+    <img src="image/figs23.png" class="figs23 figs1"/>
+    <img src="image/figs24.png" class="figs24 figs1"/>
+    <img src="image/figs25.png" class="figs25 figs1"/>
+    <img src="image/figs26.png" class="figs26 figs1"/>
+    <img src="image/figs27.png" class="figs27 figs1"/>
+    <img src="image/figs28.png" class="figs28 figs1"/>
+    <img src="image/figs29.png" class="figs29 figs1"/>
+    <img src="image/figs30.png" class="figs30 figs1"/>
+    <img src="image/figs31.png" class="figs31 figs1"/>
+    <img src="image/figs32.png" class="figs32 figs1"/>
+    <img src="image/figs33.png" class="figs33 figs1"/> 
+    <img src="image/figs34.png" class="figs34 figs1"/>
+    <img src="image/figs35.png" class="figs35 figs1"/>
+    <img src="image/figs36.png" class="figs36 figs1"/>
+    <img src="image/figs37.png" class="figs37 figs1"/>
+
+
+
+
+</div>
+
+        
+        </div>	<!-- questionSection closed-->
+       
+
+    </div>	<!-- section3 closed-->
+      <div class="ClickToAnsDiv"> Oprime aquí para entrar la respuesta </div> 
+   
+    
+    </div>	<!-- wholeSection closed-->
+   
+   </div>	<!-- new_h closed-->
+   
+    <div class="section4 KeypadArea calc">
+    	<div class="KeypadBoundary">
+        	<div class="keypadNote"><b>Teclado para entrar la respuesta</b></div>
+            <div class="keypadKeys">
+            
+                    <button class="calc_btn" value="1">1</button>
+                    <button class="calc_btn" value="2">2</button>
+                    <button class="calc_btn" value="3">3</button>
+                    <button class="calc_btn" value="4">4</button>
+                     
+                    <button class="back ThreeCommonBtns" value="back">Atrás</button>
+                    
+                    <button class="calc_btn" value="5">5</button>
+                    <button class="calc_btn" value="6">6</button>
+                    <button class="calc_btn" value="7">7</button>
+                    <button class="calc_btn" value="8">8</button>
+                    
+                    <button class="delete ThreeCommonBtns"  value="delete">Borrar</button>
+                    
+                    <button class="calc_btn" value="9">9</button>  
+                    <button class="calc_btn" value="0">0</button>
+                    <button class="calc_btn subtract" id="plus" value="." data-value="."><b>.</b></button>
+                    
+                    <button class="calc_btn subtract" id="plus1" value="%" data-value="%"><b> %</b></button>
+                    
+                   
+                    <button class="clear ThreeCommonBtns" value="Clear">Cancelar</button>
+                
+                    
+                    
+                      
+            </div>	<!-- keypadKeys closed-->
+        </div>	<!-- KeypadBoundary closed-->
+        
+       <div class="inputAndDoneSpace">
+         
+         
+         <div class="remark"><div class="respond"><font color="#339966"><b><span class="FB_TxtBox"></span></b></font></div></div>
+        <table class="InputAndDoneTbl">
+        <tr>
+        <td colspan="2">
+        <div class="answer_value bold red_color whitespace"  style="display:none"> ( Separate the roots with comma (<b>,</b>))</div>
+        </td>
+        </tr>
+        	<tr>
+        		<td class="InptDnTd1">
+                    <div class="inputDiv">
+                        <input type="text" class="input1 input" id="inputText" style="text-transform:uppercase" spellcheck="false" tabindex="1" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/>
+                    </div>
+                </td>
+               
+                <td class="InptDnTd2">    
+                    <div class="doneDiv">
+                        <button class="done1" tabindex="2"  onClick="doneButton()">Hecho</button>
+                    </div>
+            	</td>
+                
+                
+            </tr>
+           
+            </table>
+           
+        </div>
+    </div>	<!-- section4 closed-->
+    
+    
+</div>	<!-- header closed-->
+
+<div class="container">
+<div class="prompt_New blankMessage_New"><b>Entra el Valor.</b></div>
+<div class="prompt_New blankMessage_New incomplete_New"><b>¿ <span id="whatValue"></span></font> qué ?</b></div>
+
+
+<!--blankMessage Start-->
+<div class="prompt blankMessage">
+    
+    <div class="Cross_Img"><img src="image/crossImg2.png" class="Cross_BM"/></div> 
+  	<div class="enterText"><b ><span class="enterT">Enter the</span><br>value.</b></div>
+</div>
+<!--blankMessage end-->
+
+<div class="prompt blankMessage incomplete">
+    
+    <div class="Cross_Img"><img src="image/crossImg2.png" class="Cross_BM"/></div> 
+  	<div class="enterText"><b ><span class="enterT">Incomplete</span><br>Answer.</b></div>
+</div>
+
+<div class="AreaForKeypadAndInputInDevice calc">
+    
+    
+    <div class="KeypadBoundary KeyPadKeyBoundaryDevice">
+        	<div class="keypadNote keypadNoteDevice"><b>Teclado para entrar la respuesta</b></div>
+            <div class="keypadKeys keypadKeysDevice">
+            
+                    <button class="calc_btn KeyPadKeyDevice" value="1">1</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="2">2</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="3">3</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="4">4</button>
+                     
+                    <button class="back ThreeCommonBtns  KeyPadKeyDevice" value="back">Atrás</button>
+                    
+                    <button class="calc_btn KeyPadKeyDevice" value="5">5</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="6">6</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="7">7</button>
+                    <button class="calc_btn KeyPadKeyDevice" value="8">8</button>
+                    
+                    <button class="delete ThreeCommonBtns KeyPadKeyDevice"  value="delete">Borrar</button>
+                    
+                    <button class="calc_btn KeyPadKeyDevice" value="9">9</button>  
+                    <button class="calc_btn KeyPadKeyDevice" value="0">0</button>
+                   <button class="calc_btn subtract KeyPadKeyDevice" id="plus" value="." data-value="."><b>.</b></button>
+                   <button class="calc_btn subtract KeyPadKeyDevice" id="plus1" value="%" data-value="%"><b> %</b></button>
+                    
+                    <button class="clear ThreeCommonBtns KeyPadKeyDevice" value="Clear">Cancelar</button>
+                    
+
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadBoundary closed-->
+        
+        <div class="inputAndDoneSpaceFordevice">
+         
+         
+        <div class="remark"><div class="respond"><font color="#339966"><b><span class="FB_TxtBox"></span></b></font></div></div>
+        <table class="InputAndDoneTbl">
+        <tr>
+        <td colspan="2">
+        <div class="answer_value bold red_color whitespace" style="display:none"> ( Separate the roots with comma (<b>,</b>))</div>
+       </td>
+        </tr>
+        	<tr>
+        		<td class="InptDnTd1">
+                    <div class="inputDiv">
+                        <input type="text" class="input1 input" id="inputText" style="text-transform:uppercase;" spellcheck="false" tabindex="1" onKeyPress="keyPressed(event)" onFocus="myFocus(this)" autocomplete="off"/>
+                    </div>
+                </td>
+                <td class="InptDnTd2">    
+                    <div class="doneDiv">
+                        <button class="done1" tabindex="2"  onClick="doneButton()">Hecho</button>
+                    </div>
+            	</td>
+            </tr>
+           
+            </table>
+           
+        </div>
+    
+    
+    </div><!-- AreaForKeypadAndInputInDevice -->
+	<div class="solutionContainer solutionMain">
+    
+    
+	<div class="SolutionRemark"><div class="solutionText"><i>Solución</i>:</div>
+   
+    </div>
+    
+
+ <div class="solutionMainSteps">
+ <div class="middle">
+  		
+        
+       <table class="mainTable forAutoWidth">
+               
+                <tr>
+                <td class="firsttds" style="text-align:right;padding-top:0em;">Número de computadoras vendidas en <b><span id="demo9"></span></b></td>
+                <td class="thirdtds" style="padding-top:0em;"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left;padding-top:0em;"><b><span id="demo12"></span></b></td>
+                </tr>
+                
+                <tr>
+                <td class="firsttds" style="text-align:right">Número de computadoras vendidas en <b><span id="demo10"></span></b></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><b><span id="demo11"></span></b></td>
+                </tr>
+              
+                <tr class="showland">
+                <td class="firsttds" style="text-align:right"><span id="demo1"></span></b></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><b><span id="demo2"></span></b><b>&nbsp;&nbsp;=&nbsp;&nbsp;<b><span id="demo3"></span></b></td>
+                </tr>
+                
+                <tr class="showpot">
+                <td class="firsttds" style="text-align:right"><span id="demo1a"></span></b></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><b><span id="demo2a"></span></b></td>
+                </tr>
+                
+                <tr class="showpot">
+                <td class="firsttds" style="text-align:right"></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><b><b><span id="demo3a"></span></b></td>
+                </tr>
+                
+                
+                
+                <tr class="showland">
+                <td class="firsttds" style="text-align:right">Por lo tanto, <span id="demo4"></span></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><div class="fraction">
+                <span class="fup"><b><font color="#000000"><span id="demo5"></span></font></b></span>
+                <span class="fdn"><b><font color="#000000"><span id="demo6"></span></font></b></span>
+                </div><b> × 100%</b><b>&nbsp;&nbsp;=&nbsp;&nbsp;<b><font color="#FF0000"><span id="demo7"></span></font></b></td>
+                <!-- <tr><td colspan="3"><span id="demo8"></span></td>-->
+                </tr>
+                
+                
+                
+                <tr class="showpot">
+                <td class="firsttds" style="text-align:right">Por lo tanto, <span id="demo4a"></span></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><div class="fraction">
+                <span class="fup"><b><font color="#000000"><span id="demo5a"></span></font></b></span>
+                <span class="fdn"><b><font color="#000000"><span id="demo6a"></span></font></b></span>
+                </div><b> × 100%</b></td>
+                <!-- <tr><td colspan="3"><span id="demo8"></span></td>-->
+                </tr>
+                
+                
+                
+                <tr class="showpot">
+                <td class="firsttds" style="text-align:right"></td>
+                <td class="thirdtds"><b>&nbsp;&nbsp;=&nbsp;&nbsp;</b></td>
+                <td class="forthtds" style="text-align:left"><b><font color="#FF0000"><span id="demo7a"></span></font></b></td>
+                <!-- <tr><td colspan="3"><span id="demo8"></span></td>-->
+                </tr>
+                
+                
+                </table>
+
+        
+        
+       
+                
+     	
+        
+       
+</div><!-- middle end --> 
+</div><!-- solutionMainSteps end -->    
+</div><!-- solutionContainer closed-->
+</div><!-- container closed-->
+
+<div class="footer">
+
+<table class="FooterTable">
+        <tr>
+          <td class="FtrTab_Td1" width="10%"><img src="image/print.png" class="print"/> </td>
+          <td class="FtrTab_Td2" width="10%"><img src="image/AutoRun.png" class="autorun"/></td>
+          <td class="FtrTab_Td3" width="50%"><div class="SpaceBarDiv"><button class="SpaceBarButton spacebar">Click or Press Spacebar to Continue</button></div></td>
+          <td class="FtrTab_Td4" width="30%"><div class="Copyright">Copyright © 2005 - 2019 <span class="ForDeviceCopy">Educo Int. Inc.</span></div></td>
+        </tr>
+</table>
+
+</div>	<!-- footer closed-->
+  
+
+</div>		<!-- container-fluid closed-->
+
+
+</body>
+</html>
